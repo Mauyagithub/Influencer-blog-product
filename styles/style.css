@@ -99,7 +99,32 @@ text-align: center;
     font-size: 2.3rem;
     font-weight: 700;
 }
-
+footer{
+    background-color: rgba(17, 4, 42, 1);
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+}
+.footer-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 1);
+}
+.box{
+    text-align: center;
+padding: 50px 0px;
+}
+footer i{
+    color: white;
+}
+.icon{
+    display: flex;
+  gap: 10px;
+  justify-content:center;
+}
 
 
 /* responsive styles */
@@ -118,6 +143,9 @@ nav{
 /* nav ul{
     flex-direction: column;
 } */
+.card{
+    padding: 0px;
+}
     .brand{
       grid-template-columns: repeat(3,1fr);
       row-gap: 10px;
