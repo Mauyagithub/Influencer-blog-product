@@ -1,0 +1,81 @@
+/* shared styles */
+.gray{
+    color: #6C6C6C;
+}
+.btn-primary{
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    border-radius: 42px;
+    color: #FFFFFF;
+    border: none;
+}
+
+/* header section */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 120px;
+}
+nav ul a{
+   text-decoration: none;
+   color: black;
+   font-size: 1rem;
+   font-weight: 500;
+}
+nav li{
+    list-style: none;
+}
+nav ul{
+    display: flex;
+    gap: 34px;
+}
+.nav-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+/* banner section */
+.banner-title{
+    font-size: 3.25rem;
+    font-weight: 700;
+}
+.banner-description{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.banner{
+    display: flex;
+    margin-left: 92px;
+    margin-right: 132px;
+    gap: 161px;
+}
+.banner-img{
+    background-image: url(../images/Circle\ design.svg);
+}
+
+/* main section */
+.brand{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    margin: 100px 165px 0px;
+}
+.product-item{
+text-align: center;
+    margin: 100px 197px 0px;
+}
+.item-title{
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding: 10px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    text-align: left;
+}
+.card{
+    padding: 14px;
+     box-shadow: 5px 5px 20px #6C6C6C; 
+    
+}
